@@ -1,0 +1,13 @@
+<nav class="bg-gray-800 p-4 text-white">
+  <div class="container mx-auto flex justify-between items-center">
+    <a href="/" class="text-xl font-bold">ProjectHub</a>
+    <ul class="flex space-x-4">
+      <li>
+        <a href="/solutions/projects" class="<%= (page == '/solutions/projects') ? 'text-yellow-400 font-bold' : '' %>">Projects</a>
+      </li>
+      <li>
+        <a href="/solutions/addProject" class="<%= (page == '/solutions/addProject') ? 'text-yellow-400 font-bold' : '' %>">Add Project</a>
+      </li>
+    </ul>
+  </div>
+</nav>
